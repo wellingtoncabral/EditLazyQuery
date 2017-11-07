@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/09/17 11:29:20.219.dproj,D:\Users\wellington.silva\Documents\RAD Studio\Projects\Package1.dproj=D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\EditLateQueryPkg_D2010.dproj</Transaction>
+    <Transaction>2015/09/17 13:07:31.956.pas,D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\Unit1.pas=D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\uGrid.pas</Transaction>
+    <Transaction>2015/09/17 13:20:47.483.pas,D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\uGrid.pas=D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\uGridResult.pas</Transaction>
+    <Transaction>2015/09/17 14:17:03.137.pas,D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\Unit1.pas=D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\uColumnItem.pas</Transaction>
+    <Transaction>2015/09/17 14:23:59.689.pas,D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\Unit1.pas=D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\uColumnCollection.pas</Transaction>
+    <Transaction>2015/09/17 17:53:02.269.pas,D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\Unit1.pas=D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\uEvents.pas</Transaction>
+    <Transaction>2015/09/22 13:53:35.731.pas,D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\Unit1.pas=D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\uFrameFaPrtCad.pas</Transaction>
+    <Transaction>2015/09/22 13:53:35.731.dfm,D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\Unit1.dfm=D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\uFrameFaPrtCad.dfm</Transaction>
+    <Transaction>2015/09/22 13:58:09.033.pas,D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\Unit1.pas=D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\uDmConnection.pas</Transaction>
+    <Transaction>2015/09/22 13:58:09.033.dfm,D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\Unit1.dfm=D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\uDmConnection.dfm</Transaction>
+    <Transaction>2015/09/22 14:09:01.697.pas,D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\uFrameFaPrtCad.pas=</Transaction>
+    <Transaction>2015/09/22 14:09:01.697.dfm,D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\uFrameFaPrtCad.dfm=</Transaction>
+    <Transaction>2015/09/22 14:09:37.951.pas,D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\uDmConnection.pas=</Transaction>
+    <Transaction>2015/09/22 14:09:37.951.dfm,D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\uDmConnection.dfm=</Transaction>
+    <Transaction>2015/09/28 15:39:48.696.pas,D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\Unit1.pas=D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\uPanelResult.pas</Transaction>
+    <Transaction>2015/10/01 09:02:02.175.pas,D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\Unit1.pas=D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\uPagination.pas</Transaction>
+    <Transaction>2015/10/01 09:02:20.524.pas,D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\uPagination.pas=</Transaction>
+    <Transaction>2015/10/02 14:44:03.646.pas,D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\uProgress.pas=</Transaction>
+    <Transaction>2015/10/02 14:44:03.646.dfm,D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\uProgress.dfm=</Transaction>
+    <Transaction>2015/10/03 09:45:35.186.dproj,D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\EditLateQueryPkg_D2010.dproj=D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\LazyQueryPkg_D2010.dproj</Transaction>
+    <Transaction>2015/10/03 09:46:12.080.dproj,D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\LazyQueryPkg_D2010.dproj=D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\EditLazyQueryPkg_D2010.dproj</Transaction>
+    <Transaction>2015/10/03 09:46:34.789.pas,D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\uEditLateQuery.pas=D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLateQuery\uEditLazyQuery.pas</Transaction>
+    <Transaction>2015/10/03 13:31:53.854.pas,D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLazyQuery\Unit1.pas=D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLazyQuery\uPanelResultForm.pas</Transaction>
+    <Transaction>2015/10/03 13:31:53.854.dfm,D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLazyQuery\Unit1.dfm=D:\Area de Trabalho\FrameWork\FrameWork_D2010\Biblioteca\EditLazyQuery\uPanelResultForm.dfm</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="source"/>
+    <File Path="source\uColumnCollection.pas"/>
+    <File Path="source\uColumnItem.pas"/>
+    <File Path="source\uEditLazyQuery.pas"/>
+    <File Path="source\uEditSearch.pas"/>
+    <File Path="source\uEvents.pas"/>
+    <File Path="source\uGridResult.pas"/>
+    <File Path="source\uPanelResult.pas"/>
+    <File Path="source\uPanelResultForm.pas"/>
+    <File Path="source\uPanelResultForm.dfm"/>
+    <File Path="source\uSearchPanel.pas"/>
+    <File Path="left.png"/>
+    <File Path="list.bmp"/>
+    <File Path="right.png"/>
+    <File Path="search.bmp"/>
+    <File Path="cxDataD14.dcp"/>
+    <File Path="cxEditorsD14.dcp"/>
+    <File Path="cxExtEditorsD14.dcp"/>
+    <File Path="cxGridD14.dcp"/>
+    <File Path="cxLibraryD14.dcp"/>
+    <File Path="cxPageControlD14.dcp"/>
+    <File Path="dbrtl.dcp"/>
+    <File Path="dsnap.dcp"/>
+    <File Path="dxCoreD14.dcp"/>
+    <File Path="dxGDIPlusD14.dcp"/>
+    <File Path="dxThemeD14.dcp"/>
+    <File Path="rtl.dcp"/>
+    <File Path="rxctl.dcp"/>
+    <File Path="vcl.dcp"/>
+    <File Path="vcldb.dcp"/>
+    <File Path="vclimg.dcp"/>
+  </ProjectSortOrder>
+</BorlandProject>

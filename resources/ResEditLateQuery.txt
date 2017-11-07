@@ -1,0 +1,5 @@
+SEARCH Bitmap "search.bmp"
+LIST Bitmap "list.bmp"
+LEFT RCData "left_dark.png"
+RIGHT RCData "right_dark.png"
+LOADING RCData "loading.gif"

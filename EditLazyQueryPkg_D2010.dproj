@@ -1,0 +1,159 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{5256C2F5-7DDF-49D4-860E-DEAB831A0771}</ProjectGuid>
+			<MainSource>EditLazyQueryPkg_D2010.dpk</MainSource>
+			<ProjectVersion>12.0</ProjectVersion>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_Description>wAgfa - EditLazyQuery (Edit para pesquisas com paginação)</DCC_Description>
+			<DCC_F>false</DCC_F>
+			<GenPackage>true</GenPackage>
+			<DesignOnlyPackage>false</DesignOnlyPackage>
+			<DCC_K>false</DCC_K>
+			<DCC_DcuOutput>dcu\</DCC_DcuOutput>
+			<DCC_DcpOutput>..\bin</DCC_DcpOutput>
+			<DCC_BplOutput>..\bin</DCC_BplOutput>
+			<DCC_UnitAlias>WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;$(DCC_UnitAlias)</DCC_UnitAlias>
+			<DCC_E>false</DCC_E>
+			<DCC_Platform>x86</DCC_Platform>
+			<DCC_N>false</DCC_N>
+			<GenDll>true</GenDll>
+			<DCC_DependencyCheckOutputName>..\bin\EditLazyQueryPkg_D2010.bpl</DCC_DependencyCheckOutputName>
+			<DCC_ImageBase>00400000</DCC_ImageBase>
+			<DCC_S>false</DCC_S>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+			<DCC_DebugInformation>false</DCC_DebugInformation>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+		</PropertyGroup>
+		<ItemGroup>
+			<DelphiCompile Include="EditLazyQueryPkg_D2010.dpk">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="rtl.dcp"/>
+			<DCCReference Include="vcl.dcp"/>
+			<DCCReference Include="vclimg.dcp"/>
+			<DCCReference Include="dbrtl.dcp"/>
+			<DCCReference Include="vcldb.dcp"/>
+			<DCCReference Include="cxLibraryD14.dcp"/>
+			<DCCReference Include="dxThemeD14.dcp"/>
+			<DCCReference Include="dxGDIPlusD14.dcp"/>
+			<DCCReference Include="dxCoreD14.dcp"/>
+			<DCCReference Include="cxEditorsD14.dcp"/>
+			<DCCReference Include="cxDataD14.dcp"/>
+			<DCCReference Include="cxExtEditorsD14.dcp"/>
+			<DCCReference Include="cxGridD14.dcp"/>
+			<DCCReference Include="cxPageControlD14.dcp"/>
+			<DCCReference Include="dsnap.dcp"/>
+			<DCCReference Include="rxctl.dcp"/>
+			<DCCReference Include="source\uColumnCollection.pas"/>
+			<DCCReference Include="source\uColumnItem.pas"/>
+			<DCCReference Include="source\uEditLazyQuery.pas"/>
+			<DCCReference Include="source\uEditSearch.pas"/>
+			<DCCReference Include="source\uEvents.pas"/>
+			<DCCReference Include="source\uGridResult.pas"/>
+			<DCCReference Include="source\uPanelResult.pas"/>
+			<DCCReference Include="source\uPanelResultForm.pas">
+				<Form>frmPanelResult</Form>
+			</DCCReference>
+			<DCCReference Include="source\uSearchPanel.pas"/>
+			<RcItem Include="search.bmp">
+				<ResourceType>Bitmap</ResourceType>
+				<ResourceId>SEARCH</ResourceId>
+			</RcItem>
+			<RcItem Include="list.bmp">
+				<ResourceType>Bitmap</ResourceType>
+				<ResourceId>LIST</ResourceId>
+			</RcItem>
+			<RcItem Include="left.png">
+				<ResourceType>RCData</ResourceType>
+				<ResourceId>LEFT</ResourceId>
+			</RcItem>
+			<RcItem Include="right.png">
+				<ResourceType>RCData</ResourceType>
+				<ResourceId>RIGHT</ResourceId>
+			</RcItem>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType>Package</Borland.ProjectType>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Source>
+						<Source Name="MainSource">EditLazyQueryPkg_D2010.dpk</Source>
+					</Source>
+					<Parameters>
+						<Parameters Name="UseLauncher">False</Parameters>
+						<Parameters Name="LoadAllSymbols">True</Parameters>
+						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+					</Parameters>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">False</VersionInfo>
+						<VersionInfo Name="MajorVer">1</VersionInfo>
+						<VersionInfo Name="MinorVer">0</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">0</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">1046</VersionInfo>
+						<VersionInfo Name="CodePage">1252</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName"/>
+						<VersionInfoKeys Name="FileDescription"/>
+						<VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright"/>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename"/>
+						<VersionInfoKeys Name="ProductName"/>
+						<VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+					<Excluded_Packages>
+						<Excluded_Packages Name="C:\Aplicativos\Developer Express.VCL\Library\Delphi14\dclcxBarEditItemD14.bpl">ExpressBars cxEditor item by Developer Express Inc.</Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\samplevisualizers140.bpl">Embarcadero Sample Debugger Visualizers</Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\dcloffice2k140.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDS)\bin\dclofficexp140.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+					</Excluded_Packages>
+				</Delphi.Personality>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+	</Project>

@@ -1,0 +1,4 @@
+SEARCH Bitmap "search.bmp"
+LIST Bitmap "list.bmp"
+LEFT RCData "left.png"
+RIGHT RCData "right.png"
