@@ -1,5 +1,5 @@
 #EditLazyQuery
-EditLazyQuery is a component that performs queries on the database using pagination. The default page size is 100, but can be changed in your settings. 
+EditLazyQuery is a component that performs queries on the database using pagination. The default page size is 100, but can be changed in your settings 
 
 ![EditLazyQuery](https://s25.postimg.org/mj26gfx5r/Edit_Lazy_Query.png)
 
